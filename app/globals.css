@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #0a0a0a;
+      --foreground: #ededed;
+    }
+  }
+
+  body {
+    @apply bg-white text-black antialiased;
+    font-family: var(--font-inter), system-ui, sans-serif;
+    color: black;
+    background: white;
+  }
+
