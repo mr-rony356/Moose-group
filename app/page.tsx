@@ -297,8 +297,8 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-8 bg-[#EFE9DA]">
         <div className="max-w-4xl mx-auto text-center px-4 md:px-6">
-          <h2 className="text-3xl md:text-4xl font-semibold mb-6 md:mb-8">
-            Let's Transform your Business!
+          <h2 className="text-3xl md:text-5xl font-semibold mb-6 md:mb-8 md:max-w-[500px] mx-auto">
+            Let's Transform your  Business!
           </h2>
           <button className="bg-[#D2BA8A] text-[#172b20] px-6 md:px-8 py-3 rounded hover:bg-opacity-90 transition-all">
             <Link href="/contact">Get in Touch →</Link>

@@ -27,8 +27,27 @@ export default function ContactPage() {
           <div className="w-full">
             <input
               type="text"
-              name="senderName"
-              placeholder="Name"
+              name="fullName"
+              placeholder="Full Name"
+              required
+              className="w-full border p-3 rounded-xl border-black"
+            />
+          </div>
+          <div className="w-full">
+            <input
+              type="text"
+              name="company"
+              placeholder="Company"
+              required
+              className="w-full border p-3 rounded-xl border-black"
+            />
+          </div>
+          <div className="w-full">
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone"
+              required
               className="w-full border p-3 rounded-xl border-black"
             />
           </div>
@@ -37,16 +56,30 @@ export default function ContactPage() {
               type="email"
               name="senderEmail"
               placeholder="Email"
+              required
               className="w-full border p-3 rounded-xl border-black"
             />
           </div>
           <div className="w-full">
             <textarea
               name="message"
-              placeholder="Message"
+              placeholder="Comments"
               rows={5}
+              required
               className="w-full border p-3 rounded-xl border-black"
             ></textarea>
+          </div>
+          <div className="flex items-center space-x-4 bg-gray-50 p-4 rounded-xl border border-gray-200">
+            <input
+              type="checkbox"
+              name="consent"
+              required
+              className="w-5 h-5 accent-[#2E7D32] rounded cursor-pointer"
+            />
+            <label className="text-sm text-gray-600 leading-snug">
+              By submitting this form, I understand that Moose Group may contact me with 
+              offers and information about their products and services.
+            </label>
           </div>
           <button
             type="submit"

@@ -81,7 +81,7 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Your email address"
-                className="w-full px-6 py-4 rounded-lg bg-white/10 text-white placeholder-white/60 focus:outline-none focus:bg-white/20 transition-colors duration-200"
+                className="w-full  px-6 py-4 rounded-lg bg-white/10 text-white placeholder-white/60 focus:outline-none focus:bg-white/20 transition-colors duration-200"
               />
               <button
                 className="ml-[-46px] p-4 text-white hover:text-white/80 transition-colors duration-200"
@@ -91,17 +91,6 @@ export default function Footer() {
               </button>
             </div>
           </div>
-        </div>
-
-        <div className="mt-6 text-sm text-center">
-          {/* <div className="flex space-x-6">
-              <Link href="/privacy" className="hover:underline">
-                Privacy Policy
-              </Link>
-              <Link href="/terms" className="hover:underline">
-                Terms of Service
-              </Link>
-            </div> */}
         </div>
       </div>
     </footer>
