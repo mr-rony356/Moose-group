@@ -27,17 +27,17 @@ export default function Footer() {
   ];
   return (
     <footer className="bg-[#1B4332] text-white">
-      <div className="max-w-6xl mx-auto px-6 py-12">
-        <div className="grid grid-cols-3 gap-8">
-          <div className="flex flex-col items-start justify-center">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+          <div className="flex flex-col items-center md:items-start justify-center">
             <Image
               src="/logo.svg"
               alt="Moose Group Logo"
               width={100}
               height={100}
-              className="mb-4 w-[250px] h-[50px]"
+              className="mb-4 w-[200px] sm:w-[250px] h-[40px] sm:h-[50px]"
             />
-            <p className="text-sm">
+            <p className="text-sm text-center md:text-left">
               Copyright © 2020 Moose Group Consulting Inc. <br />
               All rights reserved.
             </p>
@@ -54,7 +54,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
+          <div className="text-center md:text-left">
             <h3 className="font-semibold mb-4 text-white">Company</h3>
             <ul className="space-y-2 text-[#F5F7FA]">
               <li>
@@ -75,16 +75,16 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className="text-center md:text-left">
             <h3 className="font-semibold mb-4 text-[20px]">Stay up to date</h3>
-            <div className="flex">
+            <div className="flex max-w-md mx-auto md:mx-0">
               <input
                 type="email"
                 placeholder="Your email address"
-                className="w-full  px-6 py-4 rounded-lg bg-white/10 text-white placeholder-white/60 focus:outline-none focus:bg-white/20 transition-colors duration-200"
+                className="w-full px-4 sm:px-6 py-3 sm:py-4 rounded-lg bg-white/10 text-white placeholder-white/60 focus:outline-none focus:bg-white/20 transition-colors duration-200"
               />
               <button
-                className="ml-[-46px] p-4 text-white hover:text-white/80 transition-colors duration-200"
+                className="ml-[-40px] p-3 sm:p-4 text-white hover:text-white/80 transition-colors duration-200"
                 aria-label="Subscribe to newsletter"
               >
                 <FaPaperPlane size={20} />

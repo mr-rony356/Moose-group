@@ -74,7 +74,7 @@ export default function HomePage() {
       {/* Who We Are Section */}
       <section className="py-6 bg-[#FBF7EB] " id="about">
         <div className="max-w-6xl mx-auto px-4 md:px-6">
-          <div className="flex flex-col md:flex-row items-start justify-between gap-12">
+          <div className="flex flex-col md:flex-row md:items-start items-center justify-between md:gap-12 gap-4">
             <Image
               src="/who-we-are.svg"
               alt="Business Meeting"
@@ -82,7 +82,7 @@ export default function HomePage() {
               height={1000}
               className="rounded-lg w-[305px] h-[195px]"
             />
-            <div className="w-full">
+            <div className="w-full text-center md:text-left">
               <h2 className="text-2xl md:text-[25px] font-semibold mb-2">
                 Who We are?
               </h2>
@@ -167,7 +167,7 @@ export default function HomePage() {
       <section className="py-8 bg-[#EFE9DA]">
         <div className="max-w-6xl mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 text-center md:text-left">
               <h2 className="text-2xl md:text-3xl font-semibold mb-2">
                 Helping a local
               </h2>
