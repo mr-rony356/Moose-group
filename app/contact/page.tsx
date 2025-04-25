@@ -83,7 +83,7 @@ export default function ContactPage() {
           </div>
           <button
             type="submit"
-            className="w-[25%] bg-[#2E7D32] text-white py-3 px-6 rounded-xl"
+            className="md:w-[25%] bg-[#2E7D32] text-white py-3 px-6 rounded-xl"
           >
             Send Message
           </button>

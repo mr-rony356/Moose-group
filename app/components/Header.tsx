@@ -74,33 +74,13 @@ export default function Header() {
           <div className="absolute top-20 left-0 right-0 bg-white shadow-lg md:hidden z-50">
             <nav className="flex flex-col p-4 space-y-4">
               <Link
-                href="/#services"
+                href="/"
                 className="hover:underline cursor-pointer"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Services
+                Home
               </Link>
-              <Link
-                href="/#clients"
-                className="hover:underline cursor-pointer"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Clients
-              </Link>
-              <Link
-                href="/#projects"
-                className="hover:underline cursor-pointer"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Projects
-              </Link>
-              <Link
-                href="/resources"
-                className="hover:underline cursor-pointer"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Resources
-              </Link>
+
               <Link
                 href="/#about"
                 className="hover:underline cursor-pointer"
@@ -108,12 +88,20 @@ export default function Header() {
               >
                 About
               </Link>
+
               <Link
-                href="/#contact"
+                href="/#services"
                 className="hover:underline cursor-pointer"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contact
+                Services
+              </Link>
+              <Link
+                href="/contact"
+                className="hover:underline cursor-pointer"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Contact Us
               </Link>
             </nav>
           </div>
